@@ -2,6 +2,7 @@
   <CursorEffect />
   <NavBar />
   <HeroSection />
+  <AboutSection />
   <TechSection />
   <ProjectsSection />
 </template>
@@ -17,6 +18,7 @@ import HeroSection from './components/HeroSection.vue'
 import CursorEffect from './components/CursorEffect.vue'
 import TechSection from './components/TechSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
+import AboutSection from './components/AboutSection.vue'
 
 
 </script>
