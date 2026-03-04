@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <h1 class="text-3xl text-white">teste</h1>
-  </div>
+  <NavBar />
+  <HeroSection />
 </template>
 
 <script setup>
+import NavBar from './components/NavBar.vue'
+import HeroSection from './components/HeroSection.vue'
+
 </script>
