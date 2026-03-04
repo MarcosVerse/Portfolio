@@ -6,6 +6,7 @@
   <TechSection />
   <ProjectsSection />
   <ContactSection />
+  <FooterBar />
 </template>
 
 <script setup>
@@ -21,6 +22,7 @@ import TechSection from './components/TechSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import AboutSection from './components/AboutSection.vue'
 import ContactSection from './components/ContactSection.vue'
+import FooterBar from './components/FooterBar.vue'
 
 
 </script>
