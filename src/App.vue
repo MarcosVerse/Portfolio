@@ -5,6 +5,7 @@
   <AboutSection />
   <TechSection />
   <ProjectsSection />
+  <ContactSection />
 </template>
 
 <script setup>
@@ -19,6 +20,7 @@ import CursorEffect from './components/CursorEffect.vue'
 import TechSection from './components/TechSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import AboutSection from './components/AboutSection.vue'
+import ContactSection from './components/ContactSection.vue'
 
 
 </script>
