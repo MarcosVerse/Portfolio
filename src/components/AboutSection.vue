@@ -4,12 +4,21 @@
             <div class="section-label font-mono text-xs uppercase tracking-widest">// sobre mim</div>
             <h2>Código como forma de pensar</h2>
             <div class="about-text font-mono text-sm">
-                <p>Desenvolvedor Full Stack com experiência em construir aplicações robustas e escaláveis. Atuo tanto no
-                    front quanto no back, conectando camadas com atenção a performance e clareza.</p>
-                <p>Gosto de entender o problema antes de abrir o editor. Acredito que bom código é consequência de boa
-                    lógica — e boa lógica vem de fazer as perguntas certas.</p>
-                <p>Quando não estou codando, estou lendo sobre arquitetura de sistemas, testando ferramentas novas ou
-                    tentando deixar meu setup um pouco mais eficiente.</p>
+                <p>
+                    Desenvolvedor de software com experiência na construção de aplicações robustas e escaláveis.
+                    Atuo tanto no frontend quanto no backend, conectando camadas com foco em performance,
+                    clareza de arquitetura e boa experiência para o usuário.
+                </p>
+
+                <p>
+                    Antes de escrever código, procuro entender bem o problema. Acredito que software de qualidade
+                    é resultado de boas decisões, e boas decisões começam fazendo as perguntas certas.
+                </p>
+
+                <p>
+                    Fora do código, gosto de estudar arquitetura de sistemas, explorar novas ferramentas
+                    e otimizar meu ambiente de desenvolvimento para trabalhar de forma mais eficiente.
+                </p>
             </div>
         </div>
         <div class="about-right reveal">
@@ -31,7 +40,7 @@
                         <div class="timeline-desc font-mono text-xs">{{ item.desc }}</div>
                         <div class="timeline-tags" v-if="item.tags">
                             <span class="tl-tag font-mono text-[10px]" v-for="tag in item.tags" :key="tag">{{ tag
-                                }}</span>
+                            }}</span>
                         </div>
                     </div>
                 </div>

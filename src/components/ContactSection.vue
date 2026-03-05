@@ -7,8 +7,7 @@
                     Vamos<br><span class="accent">construir</span><br>juntos?
                 </div>
                 <p class="contact-sub font-mono text-sm">
-                    <!-- Aberto a projetos freelance, posições full-time e conversas sobre tecnologia. Respondo rápido. -->
-                    ALGUM TEXTO ALGUM TEXTO ALGUM TEXTO ALGUM TEXTO ALGUM TEXTO ALGUM TEXTO ALGUM TEXTO ALGUM TEXTO
+                    Aberto a projetos freelance, posições full-time e conversas sobre tecnologia. Respondo rápido.
                 </p>
             </div>
             <div class="contact-right reveal">

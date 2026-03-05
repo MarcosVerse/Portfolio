@@ -11,7 +11,7 @@
                 <span class="line dim">Salles</span>
             </h1>
             <p class="hero-desc font-mono text-sm">
-                Construo produtos digitais completos — do banco de dados à interface.
+                Construo produtos digitais completos, do banco de dados à interface.
                 Apaixonado por código limpo, experiências fluidas e soluções que fazem sentido.
             </p>
             <div class="hero-actions">
