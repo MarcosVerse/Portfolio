@@ -40,7 +40,7 @@ import AppFactory from './AppFactory.vue'
 const heroRef = ref(null)
 const glowRef = ref(null)
 const displayedTag = ref('')
-const fullText = 'Full Stack Developer'
+const fullText = 'Software Engineer'
 
 onMounted(() => {
     let i = 0
