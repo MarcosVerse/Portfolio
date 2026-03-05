@@ -44,6 +44,10 @@ const links = [
     background: rgba(8, 12, 16, 0.7);
 }
 
+.navbar a {
+    cursor: none;
+}
+
 @media (max-width: 768px) {
     .navbar {
         padding: 16px 24px;

@@ -121,6 +121,7 @@ const links = [
     color: var(--text);
     transition: background 0.2s;
     gap: 16px;
+    cursor: none;
 }
 
 .contact-link:last-child {
