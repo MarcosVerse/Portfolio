@@ -1,9 +1,9 @@
 <template>
     <div class="tech-item">
-        <span class="text-2xl leading-none">{{ tech.icon }}</span>
+        <i :class="tech.icon" class="text-2xl"></i>
         <span class="font-mono text-xs tracking-wide" style="color: var(--text)">{{ tech.name }}</span>
         <span class="font-mono text-[10px] uppercase tracking-widest" style="color: var(--muted)">{{ tech.category
-            }}</span>
+        }}</span>
     </div>
 </template>
 
@@ -17,6 +17,19 @@ defineProps({
 </script>
 
 <style scoped>
+    
+.tech-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.tech-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
 .tech-item {
     padding: 24px 20px;
     border-right: 1px solid var(--border);
@@ -27,7 +40,7 @@ defineProps({
     transition: background 0.2s;
     position: relative;
     overflow: hidden;
-    cursor: default;
+    cursor: none;
 }
 
 .tech-item::before {
