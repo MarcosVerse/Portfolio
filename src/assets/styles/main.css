@@ -2,15 +2,15 @@
 @import "./animations.css";
 
 :root {
-    --bg: #080c10;
-    --surface: #0d1117;
+    --bg: #080a06;
+    --surface: #0d1008;
     --border: rgba(255, 255, 255, 0.06);
     --border-hover: rgba(255, 255, 255, 0.14);
-    --text: #e8edf2;
-    --muted: #5a6472;
-    --accent: #00d4ff;
-    --accent2: #7b61ff;
-    --green: #00e5a0;
+    --text: #f0ece4;
+    --muted: #5a5a48;
+    --accent: #f59e0b;
+    --accent2: #c78109;
+    --green: #84cc16;
     --mono: 'DM Mono', monospace;
     --sans: 'Syne', sans-serif;
 }
